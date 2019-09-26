@@ -1,6 +1,11 @@
-@media only screen and (max-width: 980px ,) {}
-@media only screen and (max-width: 768px ,) {}
-@media only screen and (max-width: 640px ,) {}
+/* Media Queries 640px */
+@media  screen and (max-width: 640px ,) {}
+/* Media Queries 768px */
+@media screen and (min-width: 641px) and (max-width: 768px) {}
+/* Media Queries 980px */
+@media screen and (min-width: 769px) and (max-width: 980px) { 
+
+
     body {
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
     font-size: 18px;
